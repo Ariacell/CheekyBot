@@ -1,0 +1,23 @@
+{
+  "name": "discordbots",
+  "version": "1.0.0",
+  "description": "A package for discord bots",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aria Jackson",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.10.4",
+    "axios": "^0.19.2",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "nodemon": "^2.0.4"
+  }
+}
