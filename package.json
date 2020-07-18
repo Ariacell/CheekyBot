@@ -11,10 +11,12 @@
   "license": "ISC",
   "dependencies": {
     "@babel/preset-env": "^7.10.4",
+    "@discordjs/opus": "^0.3.2",
     "@types/node": "^14.0.23",
     "axios": "^0.19.2",
     "discord.js": "^12.2.0",
     "dotenv": "^8.2.0",
+    "ffmpeg-binaries": "^3.2.2-3",
     "tslint": "^6.1.2",
     "typescript": "^3.9.7"
   },
